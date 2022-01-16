@@ -1,0 +1,378 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Spline Sans', sans-serif;
+}
+
+nav {
+    padding: 0.5rem 1.5rem 0.5rem 2rem;
+    background-color: #f7fafd;
+    box-shadow: 0 0.0625rem 0.375rem 0 rgb(0 0 0 / 10%);
+}
+
+.NavTitle {
+    margin-left: auto !important;
+}
+
+.NavLogo {
+    width: 6.6875rem;
+    height: 2.25rem;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+li {
+    line-height: 28px;
+    font-size: 16px;
+    list-style: none;
+}
+
+.navbar {
+    margin-bottom: 500px;
+}
+
+.NavTitle {
+    padding-left: 50px;
+    ;
+}
+
+.NavButton {
+
+    margin-top: 0.125rem;
+    margin-bottom: 1.375rem;
+    margin-left: 0.5rem;
+    border: 0.125rem solid #ff556e;
+    color: #ff556e;
+    display: inline-block;
+    padding: 1rem 1.5rem 1rem 1.5rem;
+
+    border-radius: 2rem;
+    background-color: transparent;
+
+    font: 700 0.875rem/0 "Open Sans", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+p {
+    color: #777;
+}
+
+h1 {
+    color: #333;
+    font-size: 4rem;
+    line-height: 4.875rem;
+    letter-spacing: -1px;
+
+}
+
+.text-container {
+    margin-top: 80px !important;
+    text-align: center;
+}
+
+.btn-dowloand {
+    display: inline-block;
+    padding: 1.5rem 2.375rem 1.5rem 2.375rem;
+    border: 0.125rem solid #ff556e;
+    border-radius: 2rem;
+    background-color: #ff556e;
+    color: #fff;
+    font: 700 0.875rem/0 "Open Sans", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.btn-dowloand i {
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 0;
+    vertical-align: top;
+}
+
+p {
+    margin-bottom: 50px;
+    font: 400 1.125rem/1.875rem "Open Sans", sans-serif;
+}
+
+.image-container {
+
+    width: 58.0625rem;
+    height: 36.125rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image-container img {
+
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 60px;
+}
+
+.content {
+    padding: 16px;
+}
+
+.card {
+    display: inline-block;
+
+    margin-right: 1rem;
+    margin-left: 1rem;
+    width: 11rem;
+    max-width: 100%;
+    vertical-align: top;
+
+    max-width: 11rem;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.cards-1 {
+
+    margin-top: 100px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    /* background-color: #f7fafd; */
+    text-align: center;
+}
+
+.card-image {
+    width: 7.5rem;
+    height: 7.5rem;
+    margin-right: auto;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    border-radius: 50%;
+    background-color: #ebe7fa;
+}
+
+.card-image .fas {
+    color: #aa7eec;
+    font-size: 3.25rem;
+    line-height: 7.5rem;
+}
+
+.image-containerD img {
+    width: 100%;
+}
+
+.text-container {
+    margin-top: 5rem;
+    margin-left: 2.5rem;
+}
+
+.listD {
+    margin-bottom: 1.75rem;
+    padding-left: 0;
+    list-style: none;
+}
+
+.mediaLi {
+    margin-bottom: 0.625rem;
+}
+
+.mediaLi .fas {
+    color: #777;
+    font-size: 0.5rem;
+    line-height: 1.75rem;
+}
+
+.DesButton {
+    display: inline-block;
+    padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+    border: 0.125rem solid #ff556e;
+    border-radius: 2rem;
+    background-color: #ff556e;
+    color: #fff;
+    font: 700 0.875rem/0 "Open Sans", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.tabs {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: #e8eff6;
+}
+
+.tabitems {
+    background-color: #9a67e7;
+    color: #fff;
+
+    padding: 0.5rem 1.5rem;
+    border-radius: 0;
+
+    border: 1px solid transparent;
+    /* border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem; */
+    font-weight: 700;
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.navitems {
+    width: auto;
+    margin-right: 0.625rem;
+}
+
+.mediaLi .far {
+    color: #19ca94;
+    font-size: 1.125rem;
+}
+
+.media-body {
+    margin-left: 0.625rem;
+    display: inline;
+}
+
+.ButtonTab1 {
+    display: inline-block;
+    padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+    border: 0.125rem solid #ff556e;
+    border-radius: 2rem;
+    background-color: #ff556e;
+    color: #fff;
+    font: 700 0.875rem/0 "Open Sans", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+    margin-left: 30px;
+}
+
+.ButtonTab2 {
+    display: inline-block;
+    padding: 1.1875rem 2.125rem 1.1875rem 2.125rem;
+    border: 0.125rem solid #333;
+    border-radius: 2rem;
+    background-color: transparent;
+    color: #333;
+    font: 700 0.875rem/0 "Open Sans", sans-serif;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.image-containerT img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.features h2 {
+    margin-bottom: 0.875rem;
+    text-align: center;
+}
+
+.p-heading {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.features {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    background-color: #f7fafd;
+}
+
+.fa-stack {
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    vertical-align: middle;
+    width: 2.5em;
+}
+
+.fa-stack-2x {
+
+    color: #aa7eec;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+ 
+}
+
+.fa-stack-1x {
+    font-size: 30px;
+    height: 72px;
+    width: 72px;
+}
+
+.media-body1 {
+    max-width: 16.375rem;
+    margin-right: 5.75rem;
+    margin-left: auto;
+}
+
+.media-body1 h4 {
+    margin-bottom: 0.25rem;
+    text-align: right;
+}
+
+/* .fa-stack .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900px;
+} */
+.image-fluid
+{
+    max-width:100%;
+    height: auto;
+}
+.image-fluid
+{
+    display: block;
+    width: 100%;
+ 
+    max-width: 20rem;
+    margin-right: auto;
+    margin-bottom: 5rem;
+    margin-left: auto;
+}
+.media-body1 p
+{
+    text-align: right;
+}
+
+
+.media-body2 {
+    max-width: 16.375rem;
+    margin-right: 5.75rem;
+    margin-left: auto;
+}
+
+.media-body2 h4 {
+    margin-bottom: 0.25rem;
+    
+}
+
